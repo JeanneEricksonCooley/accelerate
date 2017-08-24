@@ -11,3 +11,147 @@
 */
 
 @import url("../accelerate-theme/style.css");
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+	background: #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+    padding-right: 50px;
+    float: left;
+}
+
+.blog-post h4 {
+	font: 16px 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.blog-post h2 {
+	font: 700 24px 'Montserrat';
+	margin: 36px 0;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+    font-size: 15px;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+#masthead nav ul li {
+    float: left;
+    margin: 0 10px;
+}
+
+
+/* blog post on homepage */
+.recent-posts {
+	overflow: hidden;
+    width: 100%;
+}
+
+.site-content {
+    margin-top: 50px;
+}
+
+/* featured work on homepage */
+
+.featured-work {
+   width: 90%;
+   max-width: 960px;
+   margin: 0 auto;
+   display: block;
+}
+
+.featured-work h4 {
+	font-family:'Montserrat';
+	text-transform:uppercase;
+	text-align:center;
+	margin:0 0 40px;
+}
+
+.featured-work ul {
+	margin:0;
+}
+
+.individual-featured-work {
+    float: left;
+    list-style-type: none;
+    margin: 0 3% 0 0;
+    width: 31%;
+}
+
+.individual-featured-work h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.individual-featured-work:nth-child(3n) {
+    margin: 0;
+    width: 31%;
+}
+
+/* case studies */
+
+article.case-study {
+    margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 310px;
+    margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar h2 {
+    font-size: 1.5em;
+}
+
+aside.case-study-sidebar h5 {
+    font-weight: 200;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+aside.case-study-sidebar h6 {
+    font-weight: 300;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+aside.case-study-sidebar p {
+    font-size: .8em;
+    font-weight: 300;
+}
+
+aside.case-study-sidebar h6.link {
+    color: #45ac9d;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+div.case-study-images {
+    float: left;
+    width: 608px;
+}
+
+div.case-study-images img {
+    /*display: block;*/
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
