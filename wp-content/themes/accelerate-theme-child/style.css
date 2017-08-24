@@ -79,7 +79,7 @@
 	font-family:'Montserrat';
 	text-transform:uppercase;
 	text-align:center;
-	margin:0 0 40px;
+	/*margin:0 0 40px;*/
 }
 
 .featured-work ul {
@@ -118,13 +118,17 @@ aside.case-study-sidebar {
 }
 
 aside.case-study-sidebar h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    margin-bottom: 0;
 }
 
 aside.case-study-sidebar h5 {
-    font-weight: 200;
+    font-size: 12px;
+    font-weight: 500;
+    color: lightgrey;
     margin-top: 0;
     text-transform: capitalize;
+    margin-bottom: 5px;
 }
 
 aside.case-study-sidebar h6 {
