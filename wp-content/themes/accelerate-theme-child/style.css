@@ -26,8 +26,9 @@
 
 .blog-post {
 	width: 50%;
-    padding-right: 50px;
+    display: inline-block;
     float: left;
+    padding-right: 5%;
 }
 
 .blog-post h4 {
@@ -40,6 +41,56 @@
 .blog-post h2 {
 	font: 700 24px 'Montserrat';
 	margin: 36px 0;
+}
+
+/* mail chimp widget */
+
+.widget_mc4wp_form_widget {
+    border-bottom: 1px solid #BFBFBF;
+}
+
+div.mc4wp-form-fields input {
+    font: 600 .875em/1.5 'Open Sans', Arial, sans-serif;
+	text-transform: capitalize;
+	margin-top: 0;
+    font-size: 1em;
+}
+
+div.mc4wp-form-fields input[type=submit] {
+    padding:0 15px;
+	margin-top: 0;
+    background-color: #45ac9d;
+    /*border: 5px solid orange;*/
+}
+
+/* twitter sidebar */
+
+.twitter-sidebar {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    padding-left: 5%;
+}
+
+.twitter-sidebar h4 {
+	font: 16px 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.twitter-sidebar h3 {
+	font: 700 24px 'Montserrat';
+	margin: 36px 0;
+}
+
+ul.tweets {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+span.stt-em {
+    display: none;
 }
 
 .read-more-link {
@@ -158,4 +209,73 @@ div.case-study-images img {
     /*display: block;*/
     margin-bottom: 50px;
     border: 1px solid #dddddd;
+}
+
+/* contact form */
+
+#nf-field-4 {
+    position: absolute;
+    right: 0px;
+    background-color: #45ac9d;
+}
+
+.nf-form-cont {
+    margin-top: 50px;
+}
+
+.site-footer {
+    margin-top: 50px;
+}
+
+/* about page */
+
+.hero-message {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.about-page {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.individual-client-services {
+    width: 100%;
+    display: inline-block;
+}
+
+.individual-client-services aside {
+    /*border: 5px solid red;*/
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.individual-client-services div {
+    /*border: 5px solid purple;*/
+    float: left;
+    width: 70%;
+}
+
+.individual-client-services:nth-child(even) aside {
+    /*border: 5px solid red;*/
+    float: right;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.individual-client-services:nth-child(even) div {
+    /*border: 5px solid purple;*/
+    float: right;
+    width: 70%;
+}
+
+/* 404 page */
+
+.error-page {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
 }

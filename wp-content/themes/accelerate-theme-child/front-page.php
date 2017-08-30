@@ -24,9 +24,6 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 	<section class="featured-work">
-
-
-
 		  <h4>Featured Work</h4>
 
 		  <ul class="homepage-featured-work">
@@ -47,7 +44,6 @@ get_header(); ?>
 			<?php wp_reset_query(); ?>
 		</ul>
 
-
 	</section>
 
 
@@ -62,8 +58,19 @@ get_header(); ?>
      			<?php endwhile; ?>
     		<?php wp_reset_query(); ?>
 	    </div>
-	  </div>
-	</section>
 
+			<div class="twitter-sidebar">
+				<h4>Recent Tweet</h4>
+				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
+						<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					</div>
+					<div class="read-more-link">
+						<a href="https://twitter.com/doghouse_web">Follow Us &rsaquo;</a>
+					</div>
+				<?php endif; ?>
+			</div>
+		</div>
+	</section>
 
 <?php get_footer(); ?>
