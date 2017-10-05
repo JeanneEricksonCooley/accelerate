@@ -10,7 +10,7 @@
  Text Domain:  accelerate-theme-child
 */
 
-@import url("../accelerate-theme/style.css");
+/*@import url("../accelerate-theme/style.css");*/
 
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
@@ -278,4 +278,10 @@ div.case-study-images img {
     width: 50%;
     margin-left: 25%;
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    /*font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;*/
+}
+
+.error-page h1 {
+    font-family: 'Pacifico', cursive;
 }
